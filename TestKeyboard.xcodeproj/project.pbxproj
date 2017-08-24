@@ -12,6 +12,15 @@
 		01250F571F4E9F5D00BE4AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01250F551F4E9F5D00BE4AD9 /* Main.storyboard */; };
 		01250F591F4E9F5D00BE4AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01250F581F4E9F5D00BE4AD9 /* Assets.xcassets */; };
 		01250F5C1F4E9F5D00BE4AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01250F5A1F4E9F5D00BE4AD9 /* LaunchScreen.storyboard */; };
+		01250F641F4EA7B200BE4AD9 /* Step1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01250F631F4EA7B200BE4AD9 /* Step1ViewController.swift */; };
+		01250F661F4EA7D400BE4AD9 /* Step2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01250F651F4EA7D400BE4AD9 /* Step2ViewController.swift */; };
+		01250F681F4EA7E000BE4AD9 /* Step3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01250F671F4EA7E000BE4AD9 /* Step3ViewController.swift */; };
+		01250F6A1F4EA7EA00BE4AD9 /* Step4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01250F691F4EA7EA00BE4AD9 /* Step4ViewController.swift */; };
+		01250F6C1F4EA7FC00BE4AD9 /* Step5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01250F6B1F4EA7FC00BE4AD9 /* Step5ViewController.swift */; };
+		01250F6E1F4EA82800BE4AD9 /* KeyboardSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01250F6D1F4EA82800BE4AD9 /* KeyboardSubscription.swift */; };
+		01250F701F4EA8C900BE4AD9 /* ButtonDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01250F6F1F4EA8C900BE4AD9 /* ButtonDecoration.swift */; };
+		01250F721F4EA99900BE4AD9 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01250F711F4EA99900BE4AD9 /* ColorExtensions.swift */; };
+		01250F741F4EA9F100BE4AD9 /* UIColor+colorFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01250F731F4EA9F000BE4AD9 /* UIColor+colorFromHex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		01250F581F4E9F5D00BE4AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01250F5B1F4E9F5D00BE4AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01250F5D1F4E9F5D00BE4AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01250F631F4EA7B200BE4AD9 /* Step1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1ViewController.swift; sourceTree = "<group>"; };
+		01250F651F4EA7D400BE4AD9 /* Step2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2ViewController.swift; sourceTree = "<group>"; };
+		01250F671F4EA7E000BE4AD9 /* Step3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3ViewController.swift; sourceTree = "<group>"; };
+		01250F691F4EA7EA00BE4AD9 /* Step4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step4ViewController.swift; sourceTree = "<group>"; };
+		01250F6B1F4EA7FC00BE4AD9 /* Step5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step5ViewController.swift; sourceTree = "<group>"; };
+		01250F6D1F4EA82800BE4AD9 /* KeyboardSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSubscription.swift; sourceTree = "<group>"; };
+		01250F6F1F4EA8C900BE4AD9 /* ButtonDecoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDecoration.swift; sourceTree = "<group>"; };
+		01250F711F4EA99900BE4AD9 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		01250F731F4EA9F000BE4AD9 /* UIColor+colorFromHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+colorFromHex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +78,25 @@
 				01250F581F4E9F5D00BE4AD9 /* Assets.xcassets */,
 				01250F5A1F4E9F5D00BE4AD9 /* LaunchScreen.storyboard */,
 				01250F5D1F4E9F5D00BE4AD9 /* Info.plist */,
+				01250F631F4EA7B200BE4AD9 /* Step1ViewController.swift */,
+				01250F651F4EA7D400BE4AD9 /* Step2ViewController.swift */,
+				01250F671F4EA7E000BE4AD9 /* Step3ViewController.swift */,
+				01250F691F4EA7EA00BE4AD9 /* Step4ViewController.swift */,
+				01250F6B1F4EA7FC00BE4AD9 /* Step5ViewController.swift */,
+				01250F751F4EAA0F00BE4AD9 /* Extensions */,
 			);
 			path = TestKeyboard;
+			sourceTree = "<group>";
+		};
+		01250F751F4EAA0F00BE4AD9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				01250F731F4EA9F000BE4AD9 /* UIColor+colorFromHex.swift */,
+				01250F6D1F4EA82800BE4AD9 /* KeyboardSubscription.swift */,
+				01250F6F1F4EA8C900BE4AD9 /* ButtonDecoration.swift */,
+				01250F711F4EA99900BE4AD9 /* ColorExtensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +171,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01250F741F4EA9F100BE4AD9 /* UIColor+colorFromHex.swift in Sources */,
+				01250F681F4EA7E000BE4AD9 /* Step3ViewController.swift in Sources */,
+				01250F721F4EA99900BE4AD9 /* ColorExtensions.swift in Sources */,
 				01250F541F4E9F5D00BE4AD9 /* ViewController.swift in Sources */,
+				01250F661F4EA7D400BE4AD9 /* Step2ViewController.swift in Sources */,
+				01250F6E1F4EA82800BE4AD9 /* KeyboardSubscription.swift in Sources */,
+				01250F641F4EA7B200BE4AD9 /* Step1ViewController.swift in Sources */,
+				01250F6C1F4EA7FC00BE4AD9 /* Step5ViewController.swift in Sources */,
 				01250F521F4E9F5D00BE4AD9 /* AppDelegate.swift in Sources */,
+				01250F701F4EA8C900BE4AD9 /* ButtonDecoration.swift in Sources */,
+				01250F6A1F4EA7EA00BE4AD9 /* Step4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +318,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54UHPZ7HH4;
 				INFOPLIST_FILE = TestKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickmelnick.TestKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +336,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54UHPZ7HH4;
 				INFOPLIST_FILE = TestKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickmelnick.TestKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
